@@ -12,7 +12,9 @@ public class Variable {
 		
 		// 이와 같이 variable이란 결국, 주소에(0X100) data type에 맞는 
 		// 메모리 공간을 allocation하여 그 공간에 이름을 주어 접근할 수 있게 한다.
-		
+		// 번외로 
+		// Constant (ex. final int MAX = 100;) 결국 final로 선언된 Variable name과 같다.
+		// Literal int(data type) val(Variable name) = 100(Literal);
 	}
 	private static void upper(int x, char ch) {
 		for(int i = 0; i < x; i++) {
